@@ -41,4 +41,4 @@ delivery_app.include_router(user.auth_router)
 
 
 if __name__ == '__main__':
-    uvicorn.run(delivery_app,host='127.0.0.0')
+    uvicorn.run(delivery_app,host='127.0.0.2')
